@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="fb style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div class="container">
+
+
+        <div class="header">
+            <div class="logo">
+                <a class="logo-text" href="index.html">facebook</a>
+            </div>
+            <div class="login">
+                <form action="">
+                    <table class="login-controls">
+
+                        <tr>
+                            <td><label class="login-label">Email and phone</label></td>
+                            <td><label class="login-label">Password</label></td>
+                        </tr>
+
+                        <tr>
+                            <td><input class="login-inputs" type="text"></td>
+                            <td><input class="login-inputs" type="password"></td>
+                            <td><input class="submit-button" type="submit" value="Login"></td>
+                        </tr>
+
+                        <tr>
+                            <td></td>
+                            <td><a class="forgotten">Forgotten Account ?</a></td>
+                        </tr>
+
+
+                    </table>
+                </form>
+            </div>
+        </div>
+
+
+
+        <div class="main-body">
+
+            <div class="left-section">
+                <p class="para">Facebook helps you connect and share with <br>people in your life</p>
+                <img class="image" src="facebook_login.jpg" alt="no image">
+            </div>
+
+            <div class="right-section">
+                <form id="signup-form">
+                    <div class="headding">
+                        <h1>Create an account</h1>
+                        <p>Its quick and easy.</p>
+                    </div>
+                    <table>
+
+                        <tr>
+                            <td class="name-td">
+                                <input name="fname" class="name-inp" type="text" placeholder="First name">
+                            </td>
+                            <td class="name-td">
+                                <input name="sname" class="name-inp" type="text" placeholder="Surname">
+                            </td>
+                        </tr>
+                    </table>
+
+                    <table>
+                        <tr>
+                            <td><input name="email" class="user-inp2" type="text" placeholder="Email address"></td>
+                        </tr>
+                        <tr>
+                            <td><input name="password" class="user-inp2" type="password" placeholder="Password"></td>
+                        </tr>
+
+                        <tr class="dob-title">
+                            <td><label>
+                                    <h3>Birthday</h3>
+                                </label></td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <div class="dob-values">
+
+                                    <select class="dob" name="day" id="">
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="2">3</option>
+                                        <option value="2">4</option>
+                                        <option value="2">5</option>
+                                        <option value="2">6</option>
+                                        <option value="2">7</option>
+                                        <option value="2">8</option>
+                                        <option value="2">9</option>
+                                        <option value="2">10</option>
+                                    </select>
+                                    <select class="dob" name="month" id="">
+                                        <option value="">Jan</option>
+                                        <option value="">Feb</option>
+                                        <option value="">Mar</option>
+                                        <option value="">Apr</option>
+                                        <option value="">May</option>
+                                        <option value="">Jun</option>
+                                        <option value="">Jul</option>
+                                        <option value="">Aug</option>
+                                        <option value="">Sep</option>
+                                        <option value="">Oct</option>
+                                        <option value="">Nov</option>
+                                        <option value="">Dec</option>
+                                    </select>
+                                    <select class="dob" name="year">
+                                        <option value="">2009</option>
+                                        <option value="">2010</option>
+                                        <option value="">2011</option>
+                                        <option value="">2012</option>
+                                        <option value="">2013</option>
+                                        <option value="">2014</option>
+                                        <option value="">2015</option>
+                                        <option value="">2017</option>
+                                        <option value="">2018</option>
+                                        <option value="">2019</option>
+                                        <option value="">2020</option>
+                                        <option value="">2022</option>
+                                    </select>
+                                </div>
+                            </td>
+
+
+                            <td>
+                                <div class="dob-qustion">
+                                    <a href="https://www.facebook.com/help/563229410363824">
+                                        <p>why I need to provide my birthday ?</p>
+                                    </a>
+                                </div>
+                            </td>
+
+                        </tr>
+
+                      
+                        <tr>
+                            <td class="select-gender"><input name="gender" type="radio">
+                                <label>Male</label>
+                                <input name="gender" type="radio">
+                                <label>Female</label>
+                                <input name="gender" type="radio">
+                                <label>Custom</label>
+                            </td>
+                        </tr>
+
+
+                        <tr>
+                            <td>
+                                <p class="create-discription">
+                                    By clicking Create an account, you agree to our Terms, 
+                                    Privacy Policy and Cookies Policy. You may receive SMS notifications from us
+                                     and can opt out at any time.
+                                </p>
+                            </td>
+                        </tr>
+
+
+                    </table>
+                    <button type="submit" id="submit">Create an account</button>
+                </form>
+
+                <div class='create-page-box'>
+                    <a href="https://www.facebook.com/help/104002523024878"> Create a page </a>
+                    <p> for celebrity brand or business.</p>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -316,3 +316,6 @@ input.login-valid.success-alert{
     display: flex;
     margin-left: 177px;
 }
+#loginEmail-error,#loginPassword-error{
+    font-size: 13px;
+}

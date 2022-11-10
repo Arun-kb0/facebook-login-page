@@ -4,11 +4,11 @@ $(document).ready(function(){
         errorClass:'login-error fail-alert',
         validClass:'login-valid success-alert',
         rules:{
-            email:{
+            loginEmail:{
                 required:true,
                 email:true,
             },
-            password:{
+            loginPassword:{
                 required:true
             }
         },

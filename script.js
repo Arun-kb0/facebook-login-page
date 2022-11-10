@@ -1,5 +1,29 @@
+//login
 $(document).ready(function(){
+    $("#login-form").validate({
+        errorClass:'login-error fail-alert',
+        validClass:'login-valid success-alert',
+        rules:{
+            email:{
+                required:true,
+                email:true,
+            },
+            password:{
+                required:true
+            }
+        },
+        messages:{}
+    })
+})
+
+
+
+//signup 
+$(document).ready(function(){
+   
     $("#signup-form").validate({
+        errorClass:"error fail-alert",
+        validClass:"valid success-alert",
         rules:{
             fname:{
                 required:true,
@@ -14,23 +38,22 @@ $(document).ready(function(){
                 email:true
             },
             password:{
+                required:true,
                 minlength:6
             },
-            day:{
-                required:true,
-            },
-            gender:{
-                required:true
-            }
-            
-
         },
         messages:{
             fname:{
-                required:"Enter first name",
-                minlength:"at least 4 charecters"
+                required:"First name is required",
+               
+            },
+            sname:{
+                required:'Surname is required'
             }
         }
         
     })
+    
 })
+
+

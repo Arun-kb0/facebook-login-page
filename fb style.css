@@ -1,7 +1,7 @@
 .header {
     background: #3b5998;
     width: 100%;
-    height: 85px;
+    height: 90px;
 
 
 }
@@ -33,12 +33,11 @@ body {
 
 .logo-text {
     color: #ffff;
-    font-size: 25px;
+    font-size: 42px;
     font-weight: bold;
     text-decoration: none;
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-    margin-left: 294px;
-    margin-top: px;
+    margin-left: 247px;
 }
 
 .login-controls {
@@ -148,6 +147,11 @@ body {
 
 }
 
+
+.user-name{
+    display: flex;
+    padding-bottom: 13px;
+}
 .name-inp:focus{
     outline:transparent;
     border-color: #1b74e4;
@@ -157,13 +161,9 @@ body {
 
 
 
-.name-td {
+.name-td1.name-td2 {
     width: 150px;
     padding-bottom: 15px;
-    margin-right: 19px;
-
-
-
 }
 
 .user-inp2 {
@@ -265,3 +265,54 @@ body {
     padding-right: 8px;
 }
 
+
+label.error.fail-alert{
+    color:#BA0021;
+    display: block;
+
+}
+
+input.error{
+    border:2px solid #BA0021;
+
+}
+
+input.valid{
+    border: 2px solid #1DB954;
+}
+
+
+
+
+input.login-error.fail-alert{
+    border:2px solid #BA0021;
+}
+
+input.login-valid.success-alert{
+    border: 2px solid #1DB954;
+}
+.login-error.fail-alert{
+    color:#BA0021;
+    display: block;
+    
+}
+.login-user-inputs > label{
+    font-size: 12px;
+}
+.login-user-inputs> #password-error{
+    font-size: 12px;
+}
+.login-user-inputs{
+    display: flex;
+}
+.login-labels{
+    display: flex;
+
+}
+.pswd{
+    margin-left: 52px;
+}
+.forgot-account{
+    display: flex;
+    margin-left: 177px;
+}

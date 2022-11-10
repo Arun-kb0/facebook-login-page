@@ -19,23 +19,24 @@
                 <a class="logo-text" href="index.html">facebook</a>
             </div>
             <div class="login">
-                <form action="">
+                <form action="" id="login-form">
                     <table class="login-controls">
 
-                        <tr>
-                            <td><label class="login-label">Email and phone</label></td>
-                            <td><label class="login-label">Password</label></td>
+                        <tr class="login-labels">
+                            <td><label class="login-label ">Email and phone</label></td>
+                            <td class="pswd"><label class="login-label ">Password</label></td>
                         </tr>
 
-                        <tr>
-                            <td><input class="login-inputs" type="text"></td>
-                            <td><input class="login-inputs" type="password"></td>
+                        <tr class="login-user-inputs">
+                            
+                            <td><input class="login-inputs" type="text" name="email"></td>
+                            <td><input class="login-inputs" type="password" name="password"></td>
                             <td><input class="submit-button" type="submit" value="Login"></td>
                         </tr>
 
-                        <tr>
-                            <td></td>
-                            <td><a class="forgotten">Forgotten Account ?</a></td>
+                        <tr class="forgot-account">
+                            
+                            <td><a class="forgotten" href="https://www.facebook.com/help/248976822124608">Forgotten Account ?</a></td>
                         </tr>
 
 
@@ -50,7 +51,7 @@
 
             <div class="left-section">
                 <p class="para">Facebook helps you connect and share with <br>people in your life</p>
-                <img class="image" src="facebook_login.jpg" alt="no image">
+                <img class="image" src="facebook_login.png" alt="no image">
             </div>
 
             <div class="right-section">
@@ -61,11 +62,11 @@
                     </div>
                     <table>
 
-                        <tr>
-                            <td class="name-td">
+                        <tr class="user-name">
+                            <td class="name-td1">
                                 <input name="fname" class="name-inp" type="text" placeholder="First name">
                             </td>
-                            <td class="name-td">
+                            <td class="name-td2">
                                 <input name="sname" class="name-inp" type="text" placeholder="Surname">
                             </td>
                         </tr>
@@ -145,7 +146,7 @@
 
                       
                         <tr>
-                            <td class="select-gender"><input name="gender" type="radio">
+                            <td class="select-gender select_gender"><input name="gender" type="radio">
                                 <label>Male</label>
                                 <input name="gender" type="radio">
                                 <label>Female</label>
